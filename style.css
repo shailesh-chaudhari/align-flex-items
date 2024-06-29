@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+#container1 {
+    width: 100vw;
+    height: 400px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    /* default value bydefault stretch item vertically */
+    align-items: stretch;
+
+}
+
+#container2 {
+    width: 100vw;
+    height: 400px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    /* align items a start */
+    align-items: flex-start;
+}
+
+#container3 {
+    width: 100vw;
+    height: 400px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    /* align items at end */
+    align-items: flex-end;
+}
+
+#container3 {
+    width: 100vw;
+    height: 400px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    /* align items at center */
+    align-items: center;
+}
+
+#container4 {
+    width: 100vw;
+    height: 500px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    /* for column  */
+    flex-direction: column;
+    /* align items at center same for flex-start and flex-end and stretch items value */
+    align-items: center;
+}
+
+#container5 {
+    width: 100vw;
+    height: 700px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    /* it works only when flex is wrapped around multiple lines for center same for flex-start, flex-end,space-between, space-around,streach */
+    align-items: center;
+}
+
+#container6 {
+    width: 100vw;
+    height: 700px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* for both horizontal and vertical center same for flex-direction column  */
+    align-content: center;
+    justify-content: center;
+}
+
+.items {
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+}
